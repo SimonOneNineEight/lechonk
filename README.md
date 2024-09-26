@@ -1,4 +1,4 @@
-# <img src="https://img.pokemondb.net/sprites/sword-shield/normal/timburr.png" alt="Timburr"> Lechonk - An AI driven Food Nutrition Analysis
+# <img src="https://img.pokemondb.net/sprites/home/normal/lechonk.png" alt="Lechonk" style="width:50px"> Lechonk - An AI driven Food Nutrition Analysis
 
 ## Project Overview
 
@@ -12,4 +12,19 @@ A key aspect of smart food labeling is the detailed analysis of the ingredients 
 
 For more details on the functionality, refer to the code, where each function is clearly described in its respective docstrings.
 
-##
+## Project Workflow
+
+<img src="./images/flowchart.svg" alt="flowchart" />
+
+## Features
+
+- **OCR Text-Scanning**: Extract nutritional and ingredient information from food packaging images
+- **Web Crawling**: Gathers additional nutritional data from sources like EWG and Costco
+- **Data Cleaning**: Prepare Data for Machine Learning Models
+- **Machine Learning Models**: Uses Linear Regression and Decision Tree models for prdictive analysis
+- **Recommendation Algorithm**: Suggests products based on nutrition rating
+
+## Next Step:
+
+- **Live Image Capture**
+- **Increase Model Performance**
